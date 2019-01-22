@@ -27,4 +27,4 @@ This is where the apps would reside.
 
 ## Development specs
 
-At the core of this project is [Inquirer](https://www.npmjs.com/package/inquirer). The staging tool leverages this library to take user input and transform the manifest accordingly. The project also uses `Colors` for seasoning the command prompts and relies on `fs` to async read the app directories.
+At the core of this project is [Inquirer](https://www.npmjs.com/package/inquirer). The staging tool leverages this library to take user input and transform the manifest accordingly. The project also uses [Colors](https://www.npmjs.com/package/colors) for seasoning the command prompts and relies on [fs](https://node.readthedocs.io/en/latest/api/fs/) to async read the app directories.
