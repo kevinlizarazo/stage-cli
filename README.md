@@ -15,11 +15,11 @@ Run: `npm run stage`
 ## Project structure
 
 #### Definitions
-- Build Manifest: the apps in `projects.js` that are meant to be built
+- Build Manifest: the apps in `projects.js` that are meant to be built.
 
 #### `/build`
 
-This is where the build manifest, cli, and config files are. `projects.js` is the manifest. `stage.js` is the cli. `config.js` simply holds directory values.
+This is where the build manifest, cli, and config files are. `projects.js` is the manifest. `stage.js` is the cli. `config.js` simply holds directory locations.
 
 #### `/static/apps`
 
