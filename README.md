@@ -14,7 +14,7 @@ Run: `npm run stage`
 
 ## Project structure
 
-#### Definition
+#### Definitions
 - Build Manifest: the apps in `projects.js` that are meant to be built
 
 #### `/build`
