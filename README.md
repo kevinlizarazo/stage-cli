@@ -1,8 +1,8 @@
 # Stage CLI
 
-This repository is a tool I created for my team to improve the build & deployment process. 
+This repository is a tool I created for my team to improve the build & deployment process within our internal dataviz rendering system, which runs on Node.
 
-With more than 50 data visualizations created and inadvertently "staged" for our internal dataviz rendering system's build script to run through, the build runtime became too long and memory quickly became an issue. Cutting down the number of apps staged in our build manifest will drastically improve our Node environment's performance and save memory. 
+With more than 50 data visualizations created and inadvertently "staged" for the build script to run through, the build runtime became too long and memory quickly became an issue. Cutting down the number of apps staged in our build manifest will drastically improve our Node environment's performance and save memory. 
 
 In order to avoid manually editing the manifest, this CLI handles the task of reading the app directory, comparing it to the existing manifest, highlighting what is already staged, and adding/removing apps to the manifest. Once finished, it saves changes to the manifest so that the developer can run the build process or update the repo and deploy.
 
