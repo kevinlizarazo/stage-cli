@@ -1,6 +1,6 @@
 # Stage CLI
 
-This repository is a tool I created for my team to improve the build & deployment process within our internal dataviz rendering system, which runs on Node.
+This repository is a tool I created for my team to improve the build & deployment process within our internal dataviz rendering system, cfr-datawiz, which runs on Node.
 
 With more than 50 data visualizations created and inadvertently "staged" for the build script to run through, the build runtime became too long and memory quickly became an issue. Reducing the number of apps staged in our build manifest will drastically improve our environment's performance and save memory. 
 
